@@ -1,0 +1,382 @@
+{
+    "guacamole": {
+        "perishtime": 4800,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "guacamole",
+        "health": 20,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 37.5,
+        "sanity": 0
+    },
+    "dragonpie": {
+        "perishtime": 7200,
+        "temperatureduration": 10,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "dragonpie",
+        "temperature": 40,
+        "health": 40,
+        "cooktime": 2,
+        "priority": 1,
+        "hunger": 75,
+        "sanity": 5
+    },
+    "waffles": {
+        "perishtime": 2880,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "waffles",
+        "health": 60,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "ratatouille": {
+        "perishtime": 7200,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "ratatouille",
+        "health": 3,
+        "cooktime": 1,
+        "priority": 0,
+        "hunger": 25,
+        "sanity": 5
+    },
+    "fruitmedley": {
+        "perishtime": 2880,
+        "temperatureduration": 5,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "fruitmedley",
+        "temperature": -40,
+        "health": 20,
+        "cooktime": 0.5,
+        "priority": 0,
+        "hunger": 25,
+        "sanity": 5
+    },
+    "monsterlasagna": {
+        "perishtime": 2880,
+        "tags": [
+            "monstermeat"
+        ],
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "monsterlasagna",
+        "health": -20,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 37.5,
+        "sanity": -20
+    },
+    "powcake": {
+        "perishtime": 9000000,
+        "tags": [
+            "honeyed"
+        ],
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "powcake",
+        "health": -3,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 0,
+        "sanity": 0
+    },
+    "hotchili": {
+        "perishtime": 4800,
+        "temperatureduration": 15,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "hotchili",
+        "temperature": 40,
+        "health": 20,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 37.5,
+        "sanity": 0
+    },
+    "trailmix": {
+        "perishtime": 7200,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "trailmix",
+        "health": 30,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 12.5,
+        "sanity": 5
+    },
+    "frogglebunwich": {
+        "perishtime": 7200,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "frogglebunwich",
+        "health": 20,
+        "cooktime": 2,
+        "priority": 1,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "baconeggs": {
+        "perishtime": 9600,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "baconeggs",
+        "health": 20,
+        "cooktime": 2,
+        "priority": 10,
+        "hunger": 75,
+        "sanity": 5
+    },
+    "pumpkincookie": {
+        "perishtime": 4800,
+        "tags": [
+            "honeyed"
+        ],
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "pumpkincookie",
+        "health": 0,
+        "cooktime": 2,
+        "priority": 10,
+        "hunger": 37.5,
+        "sanity": 15
+    },
+    "honeyham": {
+        "perishtime": 7200,
+        "temperatureduration": 10,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "honeyham",
+        "tags": [
+            "honeyed"
+        ],
+        "temperature": 40,
+        "health": 30,
+        "cooktime": 2,
+        "priority": 2,
+        "hunger": 75,
+        "sanity": 5
+    },
+    "meatballs": {
+        "perishtime": 4800,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "meatballs",
+        "health": 3,
+        "cooktime": 0.75,
+        "priority": -1,
+        "hunger": 62.5,
+        "sanity": 5
+    },
+    "icecream": {
+        "perishtime": 1440,
+        "temperatureduration": 15,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "icecream",
+        "temperature": -40,
+        "health": 0,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 25,
+        "sanity": 50
+    },
+    "bonestew": {
+        "perishtime": 4800,
+        "temperatureduration": 15,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "bonestew",
+        "temperature": 40,
+        "health": 12,
+        "cooktime": 0.75,
+        "priority": 0,
+        "hunger": 150,
+        "sanity": 5
+    },
+    "wetgoop": {
+        "perishtime": 2880,
+        "sanity": 0,
+        "weight": 1,
+        "name": "wetgoop",
+        "health": 0,
+        "cooktime": 0.25,
+        "priority": -2,
+        "hunger": 0,
+        "wet_prefix": "Very"
+    },
+    "unagi": {
+        "perishtime": 4800,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "unagi",
+        "health": 20,
+        "cooktime": 0.5,
+        "priority": 20,
+        "hunger": 18.75,
+        "sanity": 5
+    },
+    "stuffedeggplant": {
+        "perishtime": 7200,
+        "temperatureduration": 5,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "stuffedeggplant",
+        "temperature": 40,
+        "health": 3,
+        "cooktime": 2,
+        "priority": 1,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "taffy": {
+        "perishtime": 7200,
+        "tags": [
+            "honeyed"
+        ],
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "taffy",
+        "health": -3,
+        "cooktime": 2,
+        "priority": 10,
+        "hunger": 25,
+        "sanity": 15
+    },
+    "honeynuggets": {
+        "perishtime": 7200,
+        "tags": [
+            "honeyed"
+        ],
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "honeynuggets",
+        "health": 20,
+        "cooktime": 2,
+        "priority": 2,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "turkeydinner": {
+        "perishtime": 2880,
+        "temperatureduration": 10,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "turkeydinner",
+        "temperature": 40,
+        "health": 20,
+        "cooktime": 3,
+        "priority": 10,
+        "hunger": 75,
+        "sanity": 5
+    },
+    "fishsticks": {
+        "perishtime": 4800,
+        "tags": [
+            "catfood"
+        ],
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "fishsticks",
+        "health": 40,
+        "cooktime": 2,
+        "priority": 10,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "jammypreserves": {
+        "perishtime": 7200,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "jammypreserves",
+        "health": 3,
+        "cooktime": 0.5,
+        "priority": 0,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "fishtacos": {
+        "perishtime": 2880,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "fishtacos",
+        "health": 20,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "butterflymuffin": {
+        "perishtime": 7200,
+        "foodtype": "VEGGIE",
+        "name": "butterflymuffin",
+        "cooktime": 2,
+        "health": 20,
+        "weight": 1,
+        "priority": 1,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "perogies": {
+        "perishtime": 9600,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "perogies",
+        "health": 40,
+        "cooktime": 1,
+        "priority": 5,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "kabobs": {
+        "perishtime": 7200,
+        "foodtype": "MEAT",
+        "weight": 1,
+        "name": "kabobs",
+        "health": 3,
+        "cooktime": 2,
+        "priority": 5,
+        "hunger": 37.5,
+        "sanity": 5
+    },
+    "flowersalad": {
+        "perishtime": 2880,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "flowersalad",
+        "health": 40,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 12.5,
+        "sanity": 5
+    },
+    "watermelonicle": {
+        "perishtime": 1440,
+        "temperatureduration": 10,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "watermelonicle",
+        "temperature": -40,
+        "health": 3,
+        "cooktime": 0.5,
+        "priority": 10,
+        "hunger": 12.5,
+        "sanity": 20
+    },
+    "mandrakesoup": {
+        "perishtime": 2880,
+        "foodtype": "VEGGIE",
+        "weight": 1,
+        "name": "mandrakesoup",
+        "health": 100,
+        "cooktime": 3,
+        "priority": 10,
+        "hunger": 150,
+        "sanity": 5
+    }
+}

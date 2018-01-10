@@ -1,0 +1,4924 @@
+{
+    "yellowstaff": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "yellowstaff",
+        "nounlock": true,
+        "image": "yellowstaff.tex",
+        "name": "yellowstaff",
+        "sortkey": 135,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 2,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "livinglog",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "yellowgem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "axe": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "axe",
+        "nounlock": false,
+        "image": "axe.tex",
+        "name": "axe",
+        "sortkey": 48,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "flint",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "wall_wood_item": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "wall_wood_item",
+        "nounlock": false,
+        "image": "wall_wood_item.tex",
+        "name": "wall_wood_item",
+        "sortkey": 12,
+        "numtogive": 8,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "pumpkin_lantern": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "pumpkin_lantern",
+        "nounlock": false,
+        "image": "pumpkin_lantern.tex",
+        "name": "pumpkin_lantern",
+        "sortkey": 7,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "pumpkin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "fireflies",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "earmuffshat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "earmuffshat",
+        "nounlock": false,
+        "image": "earmuffshat.tex",
+        "name": "earmuffshat",
+        "sortkey": 110,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "rabbit",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "batbat": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "batbat",
+        "nounlock": false,
+        "image": "batbat.tex",
+        "name": "batbat",
+        "sortkey": 75,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 3,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "batwing",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 5
+            },
+            {
+                "type": "livinglog",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "purplegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "cutstone": {
+        "tab": {
+            "str": "REFINE",
+            "sort": 7,
+            "icon": "tab_refine.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "cutstone",
+        "nounlock": false,
+        "image": "cutstone.tex",
+        "name": "cutstone",
+        "sortkey": 86,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "rocks",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ]
+    },
+    "trunkvest_winter": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "trunkvest_winter",
+        "nounlock": false,
+        "image": "trunkvest_winter.tex",
+        "name": "trunkvest_winter",
+        "sortkey": 122,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "trunk_winter",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            },
+            {
+                "type": "beefalowool",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "turf_road": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "turf_road",
+        "nounlock": false,
+        "image": "turf_road.tex",
+        "name": "turf_road",
+        "sortkey": 17,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "turf_rocky",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "armordragonfly": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "armordragonfly",
+        "nounlock": false,
+        "image": "armordragonfly.tex",
+        "name": "armordragonfly",
+        "sortkey": 103,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "dragon_scales",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "armorwood",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "pigskin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ]
+    },
+    "nightsword": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "nightsword",
+        "nounlock": false,
+        "image": "nightsword.tex",
+        "name": "nightsword",
+        "sortkey": 74,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 3,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 5
+            },
+            {
+                "type": "livinglog",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "turf_carpetfloor": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "turf_carpetfloor",
+        "nounlock": false,
+        "image": "turf_carpetfloor.tex",
+        "name": "turf_carpetfloor",
+        "sortkey": 20,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "beefalowool",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "bandage": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "bandage",
+        "nounlock": false,
+        "image": "bandage.tex",
+        "name": "bandage",
+        "sortkey": 36,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "papyrus",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "honey",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "wall_hay_item": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "wall_hay_item",
+        "nounlock": false,
+        "image": "wall_hay_item.tex",
+        "name": "wall_hay_item",
+        "sortkey": 11,
+        "numtogive": 4,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "lightning_rod": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "lightning_rod",
+        "nounlock": false,
+        "image": "lightning_rod.tex",
+        "name": "lightning_rod",
+        "sortkey": 64,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ],
+        "placer": "lightning_rod_placer"
+    },
+    "researchlab2": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "researchlab2",
+        "nounlock": false,
+        "image": "researchlab2.tex",
+        "name": "researchlab2",
+        "sortkey": 58,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "transistor",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ],
+        "placer": "researchlab2_placer"
+    },
+    "firepit": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "firepit",
+        "nounlock": false,
+        "image": "firepit.tex",
+        "name": "firepit",
+        "sortkey": 1,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rocks",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 12
+            }
+        ],
+        "placer": "firepit_placer"
+    },
+    "papyrus": {
+        "tab": {
+            "str": "REFINE",
+            "sort": 7,
+            "icon": "tab_refine.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "papyrus",
+        "nounlock": false,
+        "image": "papyrus.tex",
+        "name": "papyrus",
+        "sortkey": 87,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutreeds",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "hambat": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "hambat",
+        "nounlock": false,
+        "image": "hambat.tex",
+        "name": "hambat",
+        "sortkey": 91,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "pigskin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "meat",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "icehat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "icehat",
+        "nounlock": false,
+        "image": "icehat.tex",
+        "name": "icehat",
+        "sortkey": 115,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "transistor",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "ice",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 10
+            }
+        ]
+    },
+    "spear": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "spear",
+        "nounlock": false,
+        "image": "spear.tex",
+        "name": "spear",
+        "sortkey": 90,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "flint",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "cookpot": {
+        "tab": {
+            "str": "FARM",
+            "sort": 3,
+            "icon": "tab_farm.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "cookpot",
+        "nounlock": false,
+        "image": "cookpot.tex",
+        "name": "cookpot",
+        "sortkey": 28,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "charcoal",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            }
+        ],
+        "placer": "cookpot_placer"
+    },
+    "telebase": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "telebase",
+        "nounlock": false,
+        "image": "telebase.tex",
+        "name": "telebase",
+        "sortkey": 83,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 3,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "livinglog",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            }
+        ],
+        "placer": "telebase_placer"
+    },
+    "purpleamulet": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "purpleamulet",
+        "nounlock": false,
+        "image": "purpleamulet.tex",
+        "name": "purpleamulet",
+        "sortkey": 79,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 3,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "purplegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "rabbithouse": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "rabbithouse",
+        "nounlock": false,
+        "image": "rabbithouse.tex",
+        "name": "rabbithouse",
+        "sortkey": 15,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "carrot",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 10
+            },
+            {
+                "type": "manrabbit_tail",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ],
+        "placer": "rabbithouse_placer"
+    },
+    "armormarble": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "armormarble",
+        "nounlock": false,
+        "image": "armormarble.tex",
+        "name": "armormarble",
+        "sortkey": 95,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "marble",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 12
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "icestaff": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "icestaff",
+        "nounlock": false,
+        "image": "icestaff.tex",
+        "name": "icestaff",
+        "sortkey": 81,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "spear",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "bluegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "researchlab3": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "researchlab3",
+        "nounlock": false,
+        "image": "researchlab3.tex",
+        "name": "researchlab3",
+        "sortkey": 67,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "livinglog",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "purplegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 7
+            }
+        ],
+        "placer": "researchlab3_placer"
+    },
+    "thulecite": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "thulecite",
+        "nounlock": true,
+        "image": "thulecite.tex",
+        "name": "thulecite",
+        "sortkey": 128,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 2,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "thulecite_pieces",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            }
+        ]
+    },
+    "trunkvest_summer": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "trunkvest_summer",
+        "nounlock": false,
+        "image": "trunkvest_summer.tex",
+        "name": "trunkvest_summer",
+        "sortkey": 121,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "trunk_summer",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            }
+        ]
+    },
+    "shovel": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "shovel",
+        "nounlock": false,
+        "image": "shovel.tex",
+        "name": "shovel",
+        "sortkey": 52,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "flint",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "gunpowder": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "gunpowder",
+        "nounlock": false,
+        "image": "gunpowder.tex",
+        "name": "gunpowder",
+        "sortkey": 63,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "rottenegg",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "charcoal",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "nitre",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "armorgrass": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "armorgrass",
+        "nounlock": false,
+        "image": "armorgrass.tex",
+        "name": "armorgrass",
+        "sortkey": 93,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 10
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "armorslurper": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "armorslurper",
+        "nounlock": false,
+        "image": "armorslurper.tex",
+        "name": "armorslurper",
+        "sortkey": 76,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 3,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "slurper_pelt",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "sweatervest": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "sweatervest",
+        "nounlock": false,
+        "image": "sweatervest.tex",
+        "name": "sweatervest",
+        "sortkey": 120,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "houndstooth",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            }
+        ]
+    },
+    "minerhat": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "minerhat",
+        "nounlock": false,
+        "image": "minerhat.tex",
+        "name": "minerhat",
+        "sortkey": 5,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "strawhat",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "fireflies",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "turf_checkerfloor": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "turf_checkerfloor",
+        "nounlock": false,
+        "image": "turf_checkerfloor.tex",
+        "name": "turf_checkerfloor",
+        "sortkey": 19,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "marble",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "rainhat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "rainhat",
+        "nounlock": false,
+        "image": "rainhat.tex",
+        "name": "rainhat",
+        "sortkey": 109,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "mole",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "strawhat",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "boneshard",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "blowdart_pipe": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "blowdart_pipe",
+        "nounlock": false,
+        "image": "blowdart_pipe.tex",
+        "name": "blowdart_pipe",
+        "sortkey": 99,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutreeds",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "houndstooth",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "feather_robin_winter",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "reflectivevest": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "reflectivevest",
+        "nounlock": false,
+        "image": "reflectivevest.tex",
+        "name": "reflectivevest",
+        "sortkey": 123,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "feather_robin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "pigskin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "hammer": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "hammer",
+        "nounlock": false,
+        "image": "hammer.tex",
+        "name": "hammer",
+        "sortkey": 54,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "rocks",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            }
+        ]
+    },
+    "nightmarefuel": {
+        "tab": {
+            "str": "REFINE",
+            "sort": 7,
+            "icon": "tab_refine.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "nightmarefuel",
+        "nounlock": false,
+        "image": "nightmarefuel.tex",
+        "name": "nightmarefuel",
+        "sortkey": 88,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "petals_evil",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "rainometer": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "rainometer",
+        "nounlock": false,
+        "image": "rainometer.tex",
+        "name": "rainometer",
+        "sortkey": 62,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ],
+        "placer": "rainometer_placer"
+    },
+    "greenstaff": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "greenstaff",
+        "nounlock": true,
+        "image": "greenstaff.tex",
+        "name": "greenstaff",
+        "sortkey": 136,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 2,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "livinglog",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "greengem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "featherfan": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "featherfan",
+        "nounlock": false,
+        "image": "featherfan.tex",
+        "name": "featherfan",
+        "sortkey": 46,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "goose_feather",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 5
+            },
+            {
+                "type": "cutreeds",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "eyeturret_item": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "eyeturret_item",
+        "nounlock": true,
+        "image": "eyeturret_item.tex",
+        "name": "eyeturret_item",
+        "sortkey": 141,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 4,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "deerclops_eyeball",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "minotaurhorn",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 5
+            }
+        ]
+    },
+    "amulet": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "amulet",
+        "nounlock": false,
+        "image": "amulet.tex",
+        "name": "amulet",
+        "sortkey": 77,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "redgem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "ruinshat": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "ruinshat",
+        "nounlock": true,
+        "image": "ruinshat.tex",
+        "name": "ruinshat",
+        "sortkey": 138,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 4,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "dragonflychest": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 1.5,
+        "product": "dragonflychest",
+        "nounlock": false,
+        "image": "dragonflychest.tex",
+        "name": "dragonflychest",
+        "sortkey": 22,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "dragon_scales",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 10
+            }
+        ],
+        "placer": "dragonflychest_placer"
+    },
+    "greenamulet": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "greenamulet",
+        "nounlock": true,
+        "image": "greenamulet.tex",
+        "name": "greenamulet",
+        "sortkey": 133,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 2,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "greengem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "birdcage": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "birdcage",
+        "nounlock": false,
+        "image": "birdcage.tex",
+        "name": "birdcage",
+        "sortkey": 16,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "papyrus",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "seeds",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ],
+        "placer": "birdcage_placer"
+    },
+    "researchlab4": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "researchlab4",
+        "nounlock": false,
+        "image": "researchlab4.tex",
+        "name": "researchlab4",
+        "sortkey": 66,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "rabbit",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "tophat",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ],
+        "placer": "researchlab4_placer"
+    },
+    "torch": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "torch",
+        "nounlock": false,
+        "image": "torch.tex",
+        "name": "torch",
+        "sortkey": 2,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "turf_woodfloor": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "turf_woodfloor",
+        "nounlock": false,
+        "image": "turf_woodfloor.tex",
+        "name": "turf_woodfloor",
+        "sortkey": 18,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "yellowamulet": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "yellowamulet",
+        "nounlock": true,
+        "image": "yellowamulet.tex",
+        "name": "yellowamulet",
+        "sortkey": 132,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 2,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "yellowgem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "hawaiianshirt": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "hawaiianshirt",
+        "nounlock": false,
+        "image": "hawaiianshirt.tex",
+        "name": "hawaiianshirt",
+        "sortkey": 124,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "papyrus",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "cactus_flower",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 5
+            }
+        ]
+    },
+    "siestahut": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "siestahut",
+        "nounlock": false,
+        "image": "siestahut.tex",
+        "name": "siestahut",
+        "sortkey": 45,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ],
+        "placer": "siestahut_placer"
+    },
+    "firesuppressor": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "firesuppressor",
+        "nounlock": false,
+        "image": "firesuppressor.tex",
+        "name": "firesuppressor",
+        "sortkey": 65,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "gears",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "ice",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 15
+            },
+            {
+                "type": "transistor",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ],
+        "placer": "firesuppressor_placer"
+    },
+    "resurrectionstatue": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "resurrectionstatue",
+        "nounlock": false,
+        "image": "resurrectionstatue.tex",
+        "name": "resurrectionstatue",
+        "sortkey": 68,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "cookedmeat",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "beardhair",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ],
+        "placer": "resurrectionstatue_placer"
+    },
+    "telestaff": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "telestaff",
+        "nounlock": false,
+        "image": "telestaff.tex",
+        "name": "telestaff",
+        "sortkey": 82,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 3,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "livinglog",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "purplegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "diviningrod": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "diviningrod",
+        "nounlock": false,
+        "image": "diviningrod.tex",
+        "name": "diviningrod",
+        "sortkey": 60,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "gears",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "beargervest": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "beargervest",
+        "nounlock": false,
+        "image": "beargervest.tex",
+        "name": "beargervest",
+        "sortkey": 126,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "bearger_fur",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "sweatervest",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "firestaff": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "firestaff",
+        "nounlock": false,
+        "image": "firestaff.tex",
+        "name": "firestaff",
+        "sortkey": 80,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 3,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "spear",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "redgem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "pitchfork": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "pitchfork",
+        "nounlock": false,
+        "image": "pitchfork.tex",
+        "name": "pitchfork",
+        "sortkey": 55,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "flint",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "bedroll_straw": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "bedroll_straw",
+        "nounlock": false,
+        "image": "bedroll_straw.tex",
+        "name": "bedroll_straw",
+        "sortkey": 42,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "armor_sanity": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "armor_sanity",
+        "nounlock": false,
+        "image": "armor_sanity.tex",
+        "name": "armor_sanity",
+        "sortkey": 73,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 3,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 5
+            },
+            {
+                "type": "papyrus",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ]
+    },
+    "bugnet": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "bugnet",
+        "nounlock": false,
+        "image": "bugnet.tex",
+        "name": "bugnet",
+        "sortkey": 32,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "blowdart_fire": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "blowdart_fire",
+        "nounlock": false,
+        "image": "blowdart_fire.tex",
+        "name": "blowdart_fire",
+        "sortkey": 98,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutreeds",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "charcoal",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "feather_robin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "tent": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "tent",
+        "nounlock": false,
+        "image": "tent.tex",
+        "name": "tent",
+        "sortkey": 44,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ],
+        "placer": "tent_placer"
+    },
+    "catcoonhat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "catcoonhat",
+        "nounlock": false,
+        "image": "catcoonhat.tex",
+        "name": "catcoonhat",
+        "sortkey": 113,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "coontail",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "raincoat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "raincoat",
+        "nounlock": false,
+        "image": "raincoat.tex",
+        "name": "raincoat",
+        "sortkey": 119,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "tentaclespots",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "boneshard",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "nightlight": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "nightlight",
+        "nounlock": false,
+        "image": "nightlight.tex",
+        "name": "nightlight",
+        "sortkey": 72,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "redgem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ],
+        "placer": "nightlight_placer"
+    },
+    "goldenaxe": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "goldenaxe",
+        "nounlock": false,
+        "image": "goldenaxe.tex",
+        "name": "goldenaxe",
+        "sortkey": 49,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "compass": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "compass",
+        "nounlock": false,
+        "image": "compass.tex",
+        "name": "compass",
+        "sortkey": 38,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "papyrus",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "pighouse": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "pighouse",
+        "nounlock": false,
+        "image": "pighouse.tex",
+        "name": "pighouse",
+        "sortkey": 14,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "pigskin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ],
+        "placer": "pighouse_placer"
+    },
+    "boards": {
+        "tab": {
+            "str": "REFINE",
+            "sort": 7,
+            "icon": "tab_refine.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "boards",
+        "nounlock": false,
+        "image": "boards.tex",
+        "name": "boards",
+        "sortkey": 85,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "birdtrap": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "birdtrap",
+        "nounlock": false,
+        "image": "birdtrap.tex",
+        "name": "birdtrap",
+        "sortkey": 31,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "treasurechest": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 1,
+        "product": "treasurechest",
+        "nounlock": false,
+        "image": "treasurechest.tex",
+        "name": "treasurechest",
+        "sortkey": 9,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ],
+        "placer": "treasurechest_placer"
+    },
+    "rope": {
+        "tab": {
+            "str": "REFINE",
+            "sort": 7,
+            "icon": "tab_refine.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "rope",
+        "nounlock": false,
+        "image": "rope.tex",
+        "name": "rope",
+        "sortkey": 84,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ]
+    },
+    "fast_farmplot": {
+        "tab": {
+            "str": "FARM",
+            "sort": 3,
+            "icon": "tab_farm.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "fast_farmplot",
+        "nounlock": false,
+        "image": "fast_farmplot.tex",
+        "name": "fast_farmplot",
+        "sortkey": 24,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 10
+            },
+            {
+                "type": "poop",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "rocks",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ],
+        "placer": "fast_farmplot_placer"
+    },
+    "strawhat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "strawhat",
+        "nounlock": false,
+        "image": "strawhat.tex",
+        "name": "strawhat",
+        "sortkey": 107,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 12
+            }
+        ]
+    },
+    "cellar": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages/cellar.xml",
+        "min_spacing": 1,
+        "product": "cellar",
+        "nounlock": false,
+        "image": "cellar.tex",
+        "name": "cellar",
+        "sortkey": 1,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 20
+            },
+            {
+                "type": "goldenshovel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "turf_woodfloor",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 20
+            }
+        ],
+        "placer": "cellar_placer"
+    },
+    "footballhat": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "footballhat",
+        "nounlock": false,
+        "image": "footballhat.tex",
+        "name": "footballhat",
+        "sortkey": 96,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "pigskin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "transistor": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "transistor",
+        "nounlock": false,
+        "image": "transistor.tex",
+        "name": "transistor",
+        "sortkey": 59,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "razor": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "razor",
+        "nounlock": false,
+        "image": "razor.tex",
+        "name": "razor",
+        "sortkey": 56,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "flint",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "armorruins": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "armorruins",
+        "nounlock": true,
+        "image": "armorruins.tex",
+        "name": "armorruins",
+        "sortkey": 139,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 4,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "icebox": {
+        "tab": {
+            "str": "FARM",
+            "sort": 3,
+            "icon": "tab_farm.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 1.5,
+        "product": "icebox",
+        "nounlock": false,
+        "image": "icebox.tex",
+        "name": "icebox",
+        "sortkey": 29,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "gears",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ],
+        "placer": "icebox_placer"
+    },
+    "orangestaff": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "orangestaff",
+        "nounlock": true,
+        "image": "orangestaff.tex",
+        "name": "orangestaff",
+        "sortkey": 134,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 4,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "cane",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "orangegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "orangeamulet": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "orangeamulet",
+        "nounlock": true,
+        "image": "orangeamulet.tex",
+        "name": "orangeamulet",
+        "sortkey": 131,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 4,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "orangegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "staff_tornado": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "staff_tornado",
+        "nounlock": false,
+        "image": "staff_tornado.tex",
+        "name": "staff_tornado",
+        "sortkey": 104,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "goose_feather",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 10
+            },
+            {
+                "type": "lightninggoathorn",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "gears",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "beehat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "beehat",
+        "nounlock": false,
+        "image": "beehat.tex",
+        "name": "beehat",
+        "sortkey": 116,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "icepack": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "icepack",
+        "nounlock": false,
+        "image": "icepack.tex",
+        "name": "icepack",
+        "sortkey": 47,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "bearger_fur",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "gears",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "transistor",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ]
+    },
+    "homesign": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "homesign",
+        "nounlock": false,
+        "image": "homesign.tex",
+        "name": "homesign",
+        "sortkey": 10,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ],
+        "placer": "homesign_placer"
+    },
+    "bell": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "bell",
+        "nounlock": false,
+        "image": "bell.tex",
+        "name": "bell",
+        "sortkey": 70,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 10,
+            "ANCIENT": 10,
+            "SCIENCE": 10
+        },
+        "ingredients": [
+            {
+                "type": "glommerwings",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "glommerflower",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "backpack": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "backpack",
+        "nounlock": false,
+        "image": "backpack.tex",
+        "name": "backpack",
+        "sortkey": 40,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "wall_ruins_item": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "wall_ruins_item",
+        "nounlock": true,
+        "image": "wall_ruins_item.tex",
+        "name": "wall_ruins_item",
+        "sortkey": 129,
+        "numtogive": 6,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 2,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "nightstick": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "nightstick",
+        "nounlock": false,
+        "image": "nightstick.tex",
+        "name": "nightstick",
+        "sortkey": 92,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "lightninggoathorn",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "transistor",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "nitre",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "beebox": {
+        "tab": {
+            "str": "FARM",
+            "sort": 3,
+            "icon": "tab_farm.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "beebox",
+        "nounlock": false,
+        "image": "beebox.tex",
+        "name": "beebox",
+        "sortkey": 26,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "honeycomb",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "bee",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ],
+        "placer": "beebox_placer"
+    },
+    "fishingrod": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "fishingrod",
+        "nounlock": false,
+        "image": "fishingrod.tex",
+        "name": "fishingrod",
+        "sortkey": 33,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "eyebrellahat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "eyebrellahat",
+        "nounlock": false,
+        "image": "eyebrellahat.tex",
+        "name": "eyebrellahat",
+        "sortkey": 127,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "deerclops_eyeball",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 15
+            },
+            {
+                "type": "boneshard",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "coldfirepit": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "coldfirepit",
+        "nounlock": false,
+        "image": "coldfirepit.tex",
+        "name": "coldfirepit",
+        "sortkey": 4,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "nitre",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "transistor",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ],
+        "placer": "coldfirepit_placer"
+    },
+    "goldenshovel": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "goldenshovel",
+        "nounlock": false,
+        "image": "goldenshovel.tex",
+        "name": "goldenshovel",
+        "sortkey": 53,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "cane": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "cane",
+        "nounlock": false,
+        "image": "cane.tex",
+        "name": "cane",
+        "sortkey": 125,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "walrus_tusk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "onemanband": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "onemanband",
+        "nounlock": false,
+        "image": "onemanband.tex",
+        "name": "onemanband",
+        "sortkey": 71,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "pigskin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "umbrella": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "umbrella",
+        "nounlock": false,
+        "image": "umbrella.tex",
+        "name": "umbrella",
+        "sortkey": 35,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "pigskin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "winterometer": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "winterometer",
+        "nounlock": false,
+        "image": "winterometer.tex",
+        "name": "winterometer",
+        "sortkey": 61,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ],
+        "placer": "winterometer_placer"
+    },
+    "tophat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "tophat",
+        "nounlock": false,
+        "image": "tophat.tex",
+        "name": "tophat",
+        "sortkey": 108,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            }
+        ]
+    },
+    "fertilizer": {
+        "tab": {
+            "str": "FARM",
+            "sort": 3,
+            "icon": "tab_farm.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "fertilizer",
+        "nounlock": false,
+        "image": "fertilizer.tex",
+        "name": "fertilizer",
+        "sortkey": 25,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "poop",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "boneshard",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "meatrack": {
+        "tab": {
+            "str": "FARM",
+            "sort": 3,
+            "icon": "tab_farm.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "meatrack",
+        "nounlock": false,
+        "image": "meatrack.tex",
+        "name": "meatrack",
+        "sortkey": 27,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "charcoal",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ],
+        "placer": "meatrack_placer"
+    },
+    "watermelonhat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "watermelonhat",
+        "nounlock": false,
+        "image": "watermelonhat.tex",
+        "name": "watermelonhat",
+        "sortkey": 114,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "watermelon",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ]
+    },
+    "goldenpickaxe": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "goldenpickaxe",
+        "nounlock": false,
+        "image": "goldenpickaxe.tex",
+        "name": "goldenpickaxe",
+        "sortkey": 51,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "boomerang": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "boomerang",
+        "nounlock": false,
+        "image": "boomerang.tex",
+        "name": "boomerang",
+        "sortkey": 100,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "charcoal",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "pickaxe": {
+        "tab": {
+            "str": "TOOLS",
+            "sort": 0,
+            "icon": "tab_tool.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "pickaxe",
+        "nounlock": false,
+        "image": "pickaxe.tex",
+        "name": "pickaxe",
+        "sortkey": 50,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "flint",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "healingsalve": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "healingsalve",
+        "nounlock": false,
+        "image": "healingsalve.tex",
+        "name": "healingsalve",
+        "sortkey": 37,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "ash",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "rocks",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "spidergland",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "grass_umbrella": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "grass_umbrella",
+        "nounlock": false,
+        "image": "grass_umbrella.tex",
+        "name": "grass_umbrella",
+        "sortkey": 34,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "petals",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            }
+        ]
+    },
+    "lantern": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "lantern",
+        "nounlock": false,
+        "image": "lantern.tex",
+        "name": "lantern",
+        "sortkey": 8,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "lightbulb",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "bushhat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "bushhat",
+        "nounlock": false,
+        "image": "bushhat.tex",
+        "name": "bushhat",
+        "sortkey": 118,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "strawhat",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "dug_berrybush",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "featherhat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "featherhat",
+        "nounlock": false,
+        "image": "featherhat.tex",
+        "name": "featherhat",
+        "sortkey": 117,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "feather_crow",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "feather_robin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "tentaclespots",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "multitool_axe_pickaxe": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "multitool_axe_pickaxe",
+        "nounlock": true,
+        "image": "multitool_axe_pickaxe.tex",
+        "name": "multitool_axe_pickaxe",
+        "sortkey": 137,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 4,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "goldenaxe",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "goldenpickaxe",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "armorwood": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "armorwood",
+        "nounlock": false,
+        "image": "armorwood.tex",
+        "name": "armorwood",
+        "sortkey": 94,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "beefalohat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "beefalohat",
+        "nounlock": false,
+        "image": "beefalohat.tex",
+        "name": "beefalohat",
+        "sortkey": 111,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "beefalowool",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            },
+            {
+                "type": "horn",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "bedroll_furry": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "bedroll_furry",
+        "nounlock": false,
+        "image": "bedroll_furry.tex",
+        "name": "bedroll_furry",
+        "sortkey": 43,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "bedroll_straw",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "manrabbit_tail",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "winterhat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "winterhat",
+        "nounlock": false,
+        "image": "winterhat.tex",
+        "name": "winterhat",
+        "sortkey": 112,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "beefalowool",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "campfire": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "campfire",
+        "nounlock": false,
+        "image": "campfire.tex",
+        "name": "campfire",
+        "sortkey": 0,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ],
+        "placer": "campfire_placer"
+    },
+    "trap": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "trap",
+        "nounlock": false,
+        "image": "trap.tex",
+        "name": "trap",
+        "sortkey": 30,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "twigs",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            }
+        ]
+    },
+    "trap_teeth": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "trap_teeth",
+        "nounlock": false,
+        "image": "trap_teeth.tex",
+        "name": "trap_teeth",
+        "sortkey": 102,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "houndstooth",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "molehat": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "molehat",
+        "nounlock": false,
+        "image": "molehat.tex",
+        "name": "molehat",
+        "sortkey": 6,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "mole",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "transistor",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "wormlight",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "flowerhat": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "flowerhat",
+        "nounlock": false,
+        "image": "flowerhat.tex",
+        "name": "flowerhat",
+        "sortkey": 106,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "petals",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 12
+            }
+        ]
+    },
+    "sewing_kit": {
+        "tab": {
+            "str": "DRESS",
+            "sort": 9,
+            "icon": "tab_dress.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "sewing_kit",
+        "nounlock": false,
+        "image": "sewing_kit.tex",
+        "name": "sewing_kit",
+        "sortkey": 105,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            },
+            {
+                "type": "houndstooth",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "blowdart_sleep": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "blowdart_sleep",
+        "nounlock": false,
+        "image": "blowdart_sleep.tex",
+        "name": "blowdart_sleep",
+        "sortkey": 97,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutreeds",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "stinger",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "feather_crow",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "researchlab": {
+        "tab": {
+            "str": "SCIENCE",
+            "sort": 4,
+            "icon": "tab_science.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "researchlab",
+        "nounlock": false,
+        "image": "researchlab.tex",
+        "name": "researchlab",
+        "sortkey": 57,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "rocks",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ],
+        "placer": "researchlab_placer"
+    },
+    "beemine": {
+        "tab": {
+            "str": "WAR",
+            "sort": 5,
+            "icon": "tab_fight.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "beemine",
+        "nounlock": false,
+        "image": "beemine.tex",
+        "name": "beemine",
+        "sortkey": 101,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "boards",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "bee",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "flint",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "ruins_bat": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "ruins_bat",
+        "nounlock": true,
+        "image": "ruins_bat.tex",
+        "name": "ruins_bat",
+        "sortkey": 140,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 4,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "livinglog",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ]
+    },
+    "wall_stone_item": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "wall_stone_item",
+        "nounlock": false,
+        "image": "wall_stone_item.tex",
+        "name": "wall_stone_item",
+        "sortkey": 13,
+        "numtogive": 6,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "cutstone",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "coldfire": {
+        "tab": {
+            "str": "LIGHT",
+            "sort": 1,
+            "icon": "tab_light.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "coldfire",
+        "nounlock": false,
+        "image": "coldfire.tex",
+        "name": "coldfire",
+        "sortkey": 3,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "nitre",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ],
+        "placer": "coldfire_placer"
+    },
+    "slow_farmplot": {
+        "tab": {
+            "str": "FARM",
+            "sort": 3,
+            "icon": "tab_farm.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "slow_farmplot",
+        "nounlock": false,
+        "image": "slow_farmplot.tex",
+        "name": "slow_farmplot",
+        "sortkey": 23,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 1
+        },
+        "ingredients": [
+            {
+                "type": "cutgrass",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 8
+            },
+            {
+                "type": "poop",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "log",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            }
+        ],
+        "placer": "slow_farmplot_placer"
+    },
+    "nightmare_timepiece": {
+        "tab": {
+            "str": "ANCIENT",
+            "sort": 10,
+            "icon": "tab_crafting_table.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "nightmare_timepiece",
+        "nounlock": true,
+        "image": "nightmare_timepiece.tex",
+        "name": "nightmare_timepiece",
+        "sortkey": 130,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 2,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "thulecite",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            },
+            {
+                "type": "nightmarefuel",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "blueamulet": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "blueamulet",
+        "nounlock": false,
+        "image": "blueamulet.tex",
+        "name": "blueamulet",
+        "sortkey": 78,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "goldnugget",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            },
+            {
+                "type": "bluegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "purplegem": {
+        "tab": {
+            "str": "REFINE",
+            "sort": 7,
+            "icon": "tab_refine.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "purplegem",
+        "nounlock": false,
+        "image": "purplegem.tex",
+        "name": "purplegem",
+        "sortkey": 89,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "redgem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "bluegem",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "piggyback": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "piggyback",
+        "nounlock": false,
+        "image": "piggyback.tex",
+        "name": "piggyback",
+        "sortkey": 41,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "pigskin",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 4
+            },
+            {
+                "type": "silk",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 6
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 2
+            }
+        ]
+    },
+    "panflute": {
+        "tab": {
+            "str": "MAGIC",
+            "sort": 8,
+            "icon": "tab_arcane.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "panflute",
+        "nounlock": false,
+        "image": "panflute.tex",
+        "name": "panflute",
+        "sortkey": 69,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 2,
+            "ANCIENT": 0,
+            "SCIENCE": 0
+        },
+        "ingredients": [
+            {
+                "type": "cutreeds",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 5
+            },
+            {
+                "type": "mandrake",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "rope",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ]
+    },
+    "heatrock": {
+        "tab": {
+            "str": "SURVIVAL",
+            "sort": 2,
+            "icon": "tab_trap.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 3.2,
+        "product": "heatrock",
+        "nounlock": false,
+        "image": "heatrock.tex",
+        "name": "heatrock",
+        "sortkey": 39,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "rocks",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 10
+            },
+            {
+                "type": "pickaxe",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            },
+            {
+                "type": "flint",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 3
+            }
+        ]
+    },
+    "pottedfern": {
+        "tab": {
+            "str": "TOWN",
+            "sort": 6,
+            "icon": "tab_build.tex"
+        },
+        "atlas": "images/inventoryimages.xml",
+        "min_spacing": 0.9,
+        "product": "pottedfern",
+        "nounlock": false,
+        "image": "pottedfern.tex",
+        "name": "pottedfern",
+        "sortkey": 21,
+        "numtogive": 1,
+        "level": {
+            "MAGIC": 0,
+            "ANCIENT": 0,
+            "SCIENCE": 2
+        },
+        "ingredients": [
+            {
+                "type": "foliage",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 5
+            },
+            {
+                "type": "slurtle_shellpieces",
+                "atlas": "images/inventoryimages.xml",
+                "amount": 1
+            }
+        ],
+        "placer": "pottedfern_placer"
+    }
+}
